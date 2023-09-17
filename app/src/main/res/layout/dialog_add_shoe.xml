@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="300dp"
     android:layout_height="300dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".WinterActivity">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="256dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="Добавить обувь"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+
 
     <EditText
+        android:background="@drawable/bg_button"
         android:id="@+id/et_shoe_number"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Номер отсека" />
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Номер отсека"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"/>
 
     <EditText
         android:id="@+id/et_shoe_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Название обуви" />
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_button"
+        android:hint="Название обуви"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"/>
 </LinearLayout>

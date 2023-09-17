@@ -21,8 +21,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/btn_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title">
+
+        <LinearLayout
+            android:id="@+id/layout_shoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <!-- Здесь будет отображаться информация о добавленных парах обуви -->
+        </LinearLayout>
+    </ScrollView>
+
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_3"
+        android:id="@+id/btn_add"
         style="@style/ButtonWhite18"
         android:layout_width="332dp"
         android:layout_height="49dp"
@@ -34,13 +54,13 @@
         android:text="Добавить"
         android:textAppearance="@style/TEXT"
         android:textSize="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_4"
+        app:layout_constraintBottom_toTopOf="@+id/btn_del"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_4"
+        android:id="@+id/btn_del"
         android:layout_width="207dp"
         android:layout_height="41dp"
         android:layout_marginBottom="32dp"
