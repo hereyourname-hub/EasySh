@@ -1,6 +1,5 @@
 package com.example.easyshelf;
 
-
 public class Shoe {
     private String shoeNumber;
     private String shoeName;
@@ -22,4 +21,3 @@ public class Shoe {
         return shoeName;
     }
 }
-
