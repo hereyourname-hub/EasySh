@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Easy Shelf</string>
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="default_web_client_id">625474425561-rbaqms1oe2o46c1fekj03nelqf0pmi2r.apps.googleusercontent.com</string>
+
+</resources>

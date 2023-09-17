@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "625474425561",
+    "project_id": "easy-shelf-1d7cc",
+    "storage_bucket": "easy-shelf-1d7cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625474425561:android:06a16579d38b93db8da4c8",
+        "android_client_info": {
+          "package_name": "com.example.easyshelf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGPzqk8ZVgz5LWjVKb3CrpgURAPrKvc2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

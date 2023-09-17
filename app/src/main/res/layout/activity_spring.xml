@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpringActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="311dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/inter"
+        android:gravity="center"
+        android:text="Весенняя обувь"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_3"
+        style="@style/ButtonWhite18"
+        android:layout_width="332dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:drawablePadding="-60dp"
+        android:gravity="center"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:text="Добавить"
+        android:textAppearance="@style/TEXT"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_4"
+        android:layout_width="207dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/bg_button24"
+        android:drawablePadding="-60dp"
+        android:gravity="center"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:text="Удалить"
+        android:textAppearance="@style/TEXT"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
